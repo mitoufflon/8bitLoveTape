@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/user/Cloud/Cloudstation/Labomedia/projet_labomedia/MixTape/8bitLoveTape/kicad_8bitLoveTape/LoveTape-2-1.sch</source>
+    <date>mar. 20 févr. 2018 08:09:10 CET</date>
+    <tool>Eeschema 4.0.7+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8bitLoveTpae</title>
+        <company>by mitoufflon</company>
+        <rev>1.0</rev>
+        <date>2018-02-20</date>
+        <source>LoveTape-2-1.sch</source>
+        <comment number="1" value="from 8bitMixTapeManila"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Pot2">
+      <value>10k lin</value>
+      <footprint>Potentiometers:Potentiometer_Alpha-RV09</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59480680</tstamp>
+    </comp>
+    <comp ref="Pot1">
+      <value>10K lin</value>
+      <footprint>Potentiometers:Potentiometer_Alpha-RV09</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594806A1</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery_Holders:Keystone_3034_1x20mm-CoinCell</footprint>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59480758</tstamp>
+    </comp>
+    <comp ref="btn2">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH-12mm</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59480899</tstamp>
+    </comp>
+    <comp ref="btn1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH-12mm</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594808FA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>12k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59480951</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>12K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59480974</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>Battery_Holders:Keystone_3034_1x20mm-CoinCell</footprint>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596E2A11</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm_FlatTop</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596E382E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596E3C0D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>audio out</value>
+      <footprint>lib_Moi:Tayda_3.5mm_stereo_TRS_jack_A-853</footprint>
+      <libsource lib="conn" part="Conn_01x05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5F28BB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATTINY85-20PU</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="atmel" part="ATTINY85-20PU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB20B</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>On-Off</value>
+      <footprint>Connectors:bornier3</footprint>
+      <libsource lib="switches" part="SW_Push_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A79CAF2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY25-20PU">
+      <aliases>
+        <alias>ATTINY45-20PU</alias>
+        <alias>ATTINY85-20PU</alias>
+      </aliases>
+      <description>PDIP8, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire</description>
+      <docs>http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY25-20PU</field>
+        <field name="Footprint">Housings_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/dW/ADC0/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3(XTAL1/CLKI/OC1B/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push_SPDT">
+      <description>Momentary Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/usr/share/kicad/library/switches.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(BT1-Pad2)">
+      <node ref="BT2" pin="1"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Pot2-Pad2)">
+      <node ref="Pot2" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(Pot1-Pad2)">
+      <node ref="Pot1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(SW3-Pad3)">
+      <node ref="SW3" pin="3"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="BT2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="btn1" pin="1"/>
+      <node ref="btn2" pin="1"/>
+      <node ref="Pot1" pin="1"/>
+      <node ref="Pot2" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="Pot1" pin="3"/>
+      <node ref="Pot2" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad2)">
+      <node ref="btn1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad2)">
+      <node ref="btn2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

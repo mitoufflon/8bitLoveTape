@@ -1,0 +1,15 @@
+<camotics>
+  <!-- Note, all values are in mm regardless of 'units' option. -->
+  <!-- NC Files -->
+  <nc-files>
+    back.ngc outline.ngc drill.ngc
+  </nc-files>
+
+  <!-- Renderer -->
+  <resolution v='0,'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='true'/>
+
+  <tool_table/>
+</camotics>

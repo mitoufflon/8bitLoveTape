@@ -298,12 +298,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3150 4850 3150
 Wire Wire Line
-	4850 2950 5250 2950
-Wire Wire Line
-	5250 2850 5250 3150
-Connection ~ 5250 2950
-Connection ~ 5250 2850
-Wire Wire Line
 	9200 3300 9200 3600
 Connection ~ 9200 3600
 Text GLabel 9700 4450 3    60   Input ~ 0
@@ -339,6 +333,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3700 6300 3700
 NoConn ~ 6300 4200
-Wire Wire Line
-	4850 2850 5250 2850
+NoConn ~ 4850 2950
+NoConn ~ 4850 2850
 $EndSCHEMATC

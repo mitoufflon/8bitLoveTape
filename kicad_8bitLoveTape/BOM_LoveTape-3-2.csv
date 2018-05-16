@@ -1,0 +1,20 @@
+Id	Designator	Package	Quantity	Designation	Supplier and ref	Prix par kit (commande 50pc)	Statut Commande	Statut Réception	Modif à prévoir	New ref
+1			1	pcb	elecrow	1,4846 €	ok			
+2	R1,R2	R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	2	12K	mouser : 660-MF1/4LCT52R123J	0,2424 €				
+3	R3	R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	1	? selon LED						
+4	R4	R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	1	3k3						
+5	R5	R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal	1	10k	mouser : 603-MFR-25FBF52-10K	0,0312 €				
+6	U1	SOCKET DIP 8	1	U1	mouser : 649-DILB8P223TLF	0,1164 €				
+7	U1	Attiny 85	1	ATTINY85-20PU	Mouser : 556-ATTINY85-20PU	1,2000 €				
+8	SW	SPST SWITCH 3x2.54mm	1	On-Off	https://www.ebay.fr/itm/SPDT-3-Pin-2-Position-PCB-Mini-Slide-Switch/263115543905?hash=item3d42e89561:m:mLU1xYw4EKDCFFCErpRiUGw	0,2952 €	ok		changer pas 2,54 > 2,5mm + trous fixation	"611-OS102011MS2QN1
+Ou
+https://www.mouser.fr/ProductDetail/CK/0S102011MS2QN1?qs=sGAEpiMZZMtHXLepoqNyVWY62gt1t1LcnC7P9o8LzYg%3d"
+9	J1	Tayda_3.5mm_stereo_TRS_jack_A-853	1	audio out	mouser : 490-SJ1-3524N	0,5832 €				
+10	D1	LED_D5.0mm_Pink	1	LED	https://www.aliexpress.com/item/5mm-Pink-LED-Round-Light-Emitting-Diode-Diffused-Foggy-Ultra-Bright-Lamp-Bead-Plug-in-DIY/32674089617.html?spm=2114.search0104.3.8.1d7b121bvqAmkf&ws_ab_test=searchweb0_0,searchweb201602_3_10152_10151_10065_10344_10068_10342_10343_10340_10341_10696_10084_10083_10618_10305_10304_10307_10306_10302_10313_10059_10184_10534_100031_10103_10624_10623_443_10622_10621_10620,searchweb201603_49,ppcSwitch_2&algo_expid=f534758d-12ec-42ac-b621-4f952a64e247-1&algo_pvid=f534758d-12ec-42ac-b621-4f952a64e247&priceBeautifyAB=0	0,0622 €	ok			
+11	btn1,btn2	SW_PUSH-12mm	2	SW_PUSH	https://www.aliexpress.com/item/Free-shipping-100PCS-Tactile-Push-Button-Switch-Momentary-Tact-Cap-12-12-7-3MM-Micro-switch/32638121990.html?ws_ab_test=searchweb0_0,searchweb201602_2_10152_10151_10065_10344_10068_10342_10343_10340_10341_10084_10083_10305_10304_10615_10307_10306_10302_10059_10184_10314_10534_100031_10604_10103_10142,searchweb201603_2,ppcSwitch_5&algo_expid=27b836d6-25c8-4381-83d7-b3f01fabac8e-2&algo_pvid=27b836d6-25c8-4381-83d7-b3f01fabac8e&transAbTest=ae803_5&priceBeautifyAB=0	0,1226 €	ok			
+12	BT1,BT2	Keystone_103_1x20mm-CoinCell	2	Battery_Cell	https://www.aliexpress.com/item/FREE-SHIPPING-50PCS-CR2025-CR2032-battery-holder-Battery-Socket-3V-button-battery-holder-battery-Case/32225185996.html?spm=2114.search0104.3.16.2de613058ad1uW&ws_ab_test=searchweb0_0,searchweb201602_3_10152_10151_10065_10344_10068_10342_10343_10340_10341_10696_10084_10083_10618_10305_10304_10307_10306_10302_10313_10059_10184_10534_100031_10103_10624_10623_443_10622_10621_10620,searchweb201603_49,ppcSwitch_2&algo_expid=a33301d5-cc2a-4fe8-8083-45e709253028-2&algo_pvid=a33301d5-cc2a-4fe8-8083-45e709253028&priceBeautifyAB=0	0,1792 €	ok		à tester	"Keystone 3003 ou Eagle-122-2420-GR
+"
+13	C1	CP_Radial_D4.0mm_P2.00mm	1	10uF	mouser : 667-EEA-GA1V100H	0,1248 €				
+14	Pot1,Pot2	Potentiometer_Alpha-RV09	2	10k lin	mouser : 317-2090F-10K	2,2704 €				
+15	piles	CR2032 -2025	2	CR2032	https://www.ebay.fr/itm/Piles-CR2032-Lithium-3V-VARTA-Gamme-INDUSTRIAL-BULK-x-1-2-5-10-20-30-40-50-100/263063488676?hash=item3d3fce48a4:m:mwN-eNlQsyelmclOVRyRNxQ	0,5990 €	ok			
+Total						7,3112 €				

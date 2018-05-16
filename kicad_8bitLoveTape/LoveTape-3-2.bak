@@ -1,0 +1,382 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LoveTape-3-1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "8bitLoveTpae"
+Date "2018-02-20"
+Rev "0.22"
+Comp "by mitoufflon"
+Comment1 "based on 8bitMixTapeManila"
+Comment2 "Attiny85 one liner synth"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L POT Pot2
+U 1 1 59480680
+P 3900 3550
+F 0 "Pot2" V 3725 3550 50  0000 C CNN
+F 1 "10k lin" V 3800 3550 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alpha-RV09" H 3900 3550 50  0001 C CNN
+F 3 "" H 3900 3550 50  0000 C CNN
+	1    3900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT Pot1
+U 1 1 594806A1
+P 3900 4200
+F 0 "Pot1" V 3725 4200 50  0000 C CNN
+F 1 "10K lin" V 3800 4200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alpha-RV09" H 3900 4200 50  0001 C CNN
+F 3 "" H 3900 4200 50  0000 C CNN
+	1    3900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 59480758
+P 10350 3800
+F 0 "BT1" H 10450 3900 50  0000 L CNN
+F 1 "Battery_Cell" H 10450 3800 50  0000 L CNN
+F 2 "Battery_Holders:Keystone_103_1x20mm-CoinCell" V 10350 3860 50  0001 C CNN
+F 3 "" V 10350 3860 50  0000 C CNN
+	1    10350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push btn2
+U 1 1 59480899
+P 4250 5000
+F 0 "btn2" H 4250 5150 50  0000 C CNN
+F 1 "SW_PUSH" H 4250 4920 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 4250 5000 60  0001 C CNN
+F 3 "" H 4250 5000 60  0001 C CNN
+	1    4250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push btn1
+U 1 1 594808FA
+P 5000 4950
+F 0 "btn1" H 5000 5100 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 4870 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 5000 4950 60  0001 C CNN
+F 3 "" H 5000 4950 60  0001 C CNN
+	1    5000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59480951
+P 4450 4600
+F 0 "R2" V 4530 4600 50  0000 C CNN
+F 1 "12k" V 4450 4600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 4600 50  0001 C CNN
+F 3 "" H 4450 4600 50  0000 C CNN
+	1    4450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59480974
+P 5200 4600
+F 0 "R1" V 5280 4600 50  0000 C CNN
+F 1 "12K" V 5200 4600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5130 4600 50  0001 C CNN
+F 3 "" H 5200 4600 50  0000 C CNN
+	1    5200 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 5200 2    60   Input ~ 0
+GND
+Text GLabel 3750 3750 0    60   Input ~ 0
+GND
+Text GLabel 3750 4000 0    60   Input ~ 0
+GND
+Text GLabel 3750 4400 0    60   Input ~ 0
+VCC
+Text GLabel 3750 3350 0    60   Input ~ 0
+VCC
+Text GLabel 4950 3250 2    60   Input ~ 0
+GND
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 595114E8
+P 10350 3400
+F 0 "#FLG2" H 10350 3495 50  0001 C CNN
+F 1 "PWR_FLAG" H 10350 3580 50  0000 C CNN
+F 2 "" H 10350 3400 50  0000 C CNN
+F 3 "" H 10350 3400 50  0000 C CNN
+	1    10350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG3
+U 1 1 59511778
+P 10350 4400
+F 0 "#FLG3" H 10350 4495 50  0001 C CNN
+F 1 "PWR_FLAG" H 10350 4580 50  0000 C CNN
+F 2 "" H 10350 4400 50  0000 C CNN
+F 3 "" H 10350 4400 50  0000 C CNN
+	1    10350 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Battery_Cell BT2
+U 1 1 596E2A11
+P 10350 4150
+F 0 "BT2" H 10450 4250 50  0000 L CNN
+F 1 "Battery_Cell" H 10450 4150 50  0000 L CNN
+F 2 "Battery_Holders:Keystone_103_1x20mm-CoinCell" V 10350 4210 50  0001 C CNN
+F 3 "" V 10350 4210 50  0001 C CNN
+	1    10350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 596E382E
+P 9750 2550
+F 0 "D1" H 9750 2650 50  0000 C CNN
+F 1 "LED" H 9750 2450 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm_FlatTop" H 9750 2550 50  0001 C CNN
+F 3 "" H 9750 2550 50  0001 C CNN
+	1    9750 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 9750 2250 1    60   Input ~ 0
+GND
+$Comp
+L R R3
+U 1 1 596E3C0D
+P 9750 2950
+F 0 "R3" V 9830 2950 50  0000 C CNN
+F 1 "R" V 9750 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9680 2950 50  0001 C CNN
+F 3 "" H 9750 2950 50  0001 C CNN
+	1    9750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x05 J1
+U 1 1 5A5F28BB
+P 4650 3050
+F 0 "J1" H 4650 3350 50  0000 C CNN
+F 1 "audio out" H 4650 2750 50  0000 C CNN
+F 2 "lib_Moi:Tayda_3.5mm_stereo_TRS_jack_A-853" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L ATTINY85-20PU U1
+U 1 1 5A5EB20B
+P 7650 3950
+F 0 "U1" H 6500 4350 50  0000 C CNN
+F 1 "ATTINY85-20PU" H 8650 3550 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 8650 3950 50  0001 C CIN
+F 3 "" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10250 3700
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 5A5F46D1
+P 9200 3300
+F 0 "#FLG1" H 9200 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9200 3450 50  0000 C CNN
+F 2 "" H 9200 3300 50  0001 C CNN
+F 3 "" H 9200 3300 50  0001 C CNN
+	1    9200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4750 4450 5000
+Wire Wire Line
+	5200 4750 5200 4950
+Wire Wire Line
+	4800 4950 4800 5200
+Connection ~ 4800 5200
+Wire Wire Line
+	4050 5200 5250 5200
+Wire Wire Line
+	3750 3350 3900 3350
+Wire Wire Line
+	3900 3350 3900 3400
+Wire Wire Line
+	3750 4000 3900 4000
+Wire Wire Line
+	3900 4000 3900 4050
+Wire Wire Line
+	3900 3700 3900 3750
+Wire Wire Line
+	3900 3750 3750 3750
+Wire Wire Line
+	3900 4350 3900 4400
+Wire Wire Line
+	3900 4400 3750 4400
+Wire Wire Line
+	4050 5000 4050 5200
+Wire Wire Line
+	5200 4000 6300 4000
+Wire Wire Line
+	5200 4000 5200 4450
+Wire Wire Line
+	4450 3800 4450 4450
+Wire Wire Line
+	4050 4200 4050 4100
+Wire Wire Line
+	4050 4100 6300 4100
+Wire Wire Line
+	4050 3550 4050 3900
+Connection ~ 5250 3150
+Wire Wire Line
+	4850 3050 5250 3050
+Wire Wire Line
+	10350 3900 10350 3950
+Wire Wire Line
+	9250 4250 10350 4250
+Wire Wire Line
+	9250 4250 9250 4200
+Wire Wire Line
+	9250 4200 9000 4200
+Wire Wire Line
+	9150 3600 9150 3700
+Wire Wire Line
+	9150 3700 9000 3700
+Connection ~ 9750 3600
+Wire Wire Line
+	10350 4250 10350 4400
+Wire Wire Line
+	10350 3400 10350 3600
+Wire Wire Line
+	9750 2250 9750 2400
+Wire Wire Line
+	9750 2700 9750 2800
+Wire Wire Line
+	9750 3600 9750 3100
+Wire Wire Line
+	4950 3250 4850 3250
+Wire Wire Line
+	4850 3150 5800 3150
+Wire Wire Line
+	9200 3300 9200 3600
+Connection ~ 9200 3600
+Text GLabel 9700 4450 3    60   Input ~ 0
+GND
+Wire Wire Line
+	9700 4450 9700 4250
+Connection ~ 9700 4250
+Connection ~ 9350 3600
+Wire Wire Line
+	9350 3600 9350 3550
+Text GLabel 9350 3550 1    60   Input ~ 0
+VCC
+$Comp
+L SW_Push_SPDT SW3
+U 1 1 5A79CAF2
+P 10050 3600
+F 0 "SW3" H 10050 3770 50  0000 C CNN
+F 1 "On-Off" H 10050 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10050 3600 50  0001 C CNN
+F 3 "" H 10050 3600 50  0001 C CNN
+	1    10050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3600 9850 3600
+Wire Wire Line
+	10350 3500 10250 3500
+Connection ~ 10350 3500
+Wire Wire Line
+	4450 3800 6300 3800
+Wire Wire Line
+	4050 3900 6300 3900
+NoConn ~ 6300 4200
+NoConn ~ 4850 2950
+NoConn ~ 4850 2850
+$Comp
+L R R4
+U 1 1 5AA934C4
+P 6100 3600
+F 0 "R4" V 6180 3600 50  0000 C CNN
+F 1 "3k3" V 6100 3600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3600 50  0001 C CNN
+F 3 "" H 6100 3600 50  0001 C CNN
+	1    6100 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 10uF1
+U 1 1 5AA93521
+P 5800 3300
+F 0 "10uF1" H 5825 3400 50  0000 L CNN
+F 1 "CP1" H 5825 3200 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5800 3300 50  0001 C CNN
+F 3 "" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 3700 6250 3700
+Wire Wire Line
+	6250 3700 6250 3600
+Wire Wire Line
+	5950 3600 5550 3600
+Wire Wire Line
+	5800 3450 5800 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	5250 3050 5250 3150
+Text GLabel 5100 3600 0    60   Input ~ 0
+GND
+Wire Wire Line
+	5250 3600 5100 3600
+$Comp
+L R R5
+U 1 1 5AABD469
+P 5400 3600
+F 0 "R5" V 5480 3600 50  0000 C CNN
+F 1 "10k" V 5400 3600 50  0000 C CNN
+F 2 "" V 5330 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

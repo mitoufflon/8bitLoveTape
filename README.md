@@ -5,4 +5,4 @@ https://vimeo.com/264154423
 
 <img src="https://labomedia.org/wp-content/uploads/2018/04/8bitLoveTapeGo-460x330.png">
 
-more info : https://wiki.labomedia.org/index.php/LoveTape
+more info : https://ressources.labomedia.org/lovetape
